@@ -1,0 +1,265 @@
+
+.ff-comic {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif !important;
+}
+
+.ff-times {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.fc-fuschia {
+    color: #9013FE !important;
+}
+
+body {
+    background-image: url("https://i.stack.imgur.com/q0kDW.png") !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+#content {
+    border-width: 0 4px 0px 4px;
+    border-style: solid;
+    border-color: #32E830;
+}
+
+.container h2, .container h4, .bulletin-title {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif !important;
+    color: #9013FE !important;
+}
+
+.container h5 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif !important;
+    font-style: uppercase;
+}
+
+.container .bulletin-item-content a {
+    text-decoration: underline;
+}
+
+.container .favicon {
+    background-image: url("https://i.stack.imgur.com/v7beF.png") !important;
+    background-position: 0px;
+}
+
+.tm-unicorn-front {
+    position: absolute;
+    top: 200px;
+    left: -195px;
+}
+
+.tm-unicorn-back {
+    position: absolute;
+    top: 330px;
+    right: -198px;
+}
+
+@media (max-width: 1700px) {
+    .tm-unicorn-front, .tm-unicorn-back {
+        display: none;
+    }
+}
+
+
+
+.tm-toggle {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+#question-header .question-hyperlink {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif !important;
+    text-decoration: none;
+}
+
+#question-header a.s-btn {
+    border-radius: 0;
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+    border: 3px outset blue;
+    cursor: pointer;
+}
+
+.question-hyperlink {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+#tm-header {
+    border-bottom: 4px solid #32E830;
+}
+
+#tm-scroll {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: marquee 15s linear infinite;
+    -webkit-animation: marquee 15s linear infinite;
+    animation: marquee 15s linear infinite;
+}
+
+
+@-moz-keyframes marquee {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes marquee {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+
+
+#left-sidebar {
+    background: linear-gradient(0deg, #4395CF 0%, #9A54E3 100%);
+    border-left: 4px solid #32E830;
+}
+
+    #left-sidebar a {
+        ;
+        color: #F8E71C;
+        text-decoration: underline;
+    }
+
+    #left-sidebar li, .fc-medium {
+        color: #fff !important;
+    }
+
+.tm-globe {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+
+#mainbar a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.post-text {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.user-details, .comment-copy, .post-tag {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif !important;
+}
+
+.question-page #answers .answer, .wmd-container {
+    border: 5px groove;
+}
+
+#wmd-preview {
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif !important;
+}
+
+
+
+.community-bulletin {
+    border: 5px groove #EDE8E7 !important;
+}
+
+#tm-views {
+    display: inline-block;
+    background: #000;
+    color: #7FFF00;
+    padding: 5px 0px 5px 5px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: "Consolas";
+}
+
+.tm-fire {
+    width: 15px;
+    height: 20px;
+}
+
+#tm-footer {
+    background-image: url("https://i.stack.imgur.com/Uc10K.png");
+}
+
+#tm-footer-top {
+    background-image: url("https://i.stack.imgur.com/g1Bsl.png");
+    height: 30px;
+    margin-bottom: 75px;
+}
+
+#tm-footer-bottom {
+    background-image: url("https://i.stack.imgur.com/Iuako.gif");
+    height: 30px;
+    margin-top: 75px;
+}
+
+.tm-form-container {
+    background: #9013FE;
+    border: 3px inset #fcfcfc;
+}
+
+.tm-comments {
+    border: 3px inset #fcfcfc;
+    height: 350px;
+}
+
+.tm-comment-input {
+    height: 150px;
+}
+
+#tm-guestbook input, #tm-guestbook textarea {
+    width: 100%;
+}
+
+
+.site-footer .-link {
+    text-decoration: underline;
+}
+
+.js-follow-post, .js-follow-post:hover {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+* {
+    scrollbar-color: unset !important;
+}
+
+table, .s-table, table.s-table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: 1px outset #999;
+}
+
+    table td, .s-table td, table.s-table td {
+        border: 1px inset #999 !important;
+    }
+
+    table th, .s-table th, table.s-table th {
+        background-color: unset;
+        border: 1px inset #999 !important;
+    }

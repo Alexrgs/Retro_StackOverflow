@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "StackOverflow that 90's Theme",
+  "version": "1.0.0",
+  "icons": { "512": "party.png" },
+  "description": "Add unnecessary clutter to give that 90's feeling to StackOverflow",
+
+  "content_scripts": [
+    {
+      "js": [ "jquery-3.5.1.min.js", "fairyDustCursor.js", "content.js" ],
+      "css": [ "content.css" ],
+      "matches": [
+        "https://*.stackoverflow.com/",
+        "https://*.stackoverflow.com/questions/*",
+        "https://*.stackoverflow.com/questions?*",
+        "https://*.stackoverflow.com/tags/*",
+        "https://*.stackoverflow.com/users/*",
+        "https://*.stackoverflow.com/unanswered/*",
+        "https://*.askubuntu.com/questions/*",
+        "https://*.serverfault.com/questions/*",
+        "https://*.superuser.com/questions/*",
+        "https://*.stackapps.com/questions/*",
+        "https://*.mathoverflow.net/questions/*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [ "activeTab", "storage" ],
+  "browser_action": {
+    "default_name": "StackOverflow 90's Theme",
+    "default_icon": "party.png"
+  }
+}
